@@ -3,13 +3,13 @@
 2019 Dec 14 (Sat)
 ----------------------------------------------------------------------
 
-Meeting today
+TODO:
 
-- Bullet 1
-- Bullet 2
+- Extend the `downData.R`
 
-	- Sub-bullet 1
-	- sub-bullte 2
+	- clean up the `labs_clean` so that we have lower case variables and '-'
+	- add the new labs to the dataframe as the variable names
+	- add the choices to the data frame as the labels
 
 
 2019 Nov 30 (Sat)
