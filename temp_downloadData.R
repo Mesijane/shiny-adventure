@@ -29,3 +29,9 @@ names_df$labs_clean <- gsub("\\?", "",names_df$labs_clean)
 names_df$labs_clean <- trimws(names_df$labs_clean,which = c("both", "left", "right"))
 names_df$labs_clean <- gsub(" ", "_",names_df$labs_clean)
 names_df$labs_clean <- gsub("-", "_",names_df$labs_clean)
+names(df)
+names_df$labs_clean
+dim(names_df)
+names_df <- names_df[1:10,]
+colnames(df) <- names_df$labs_clean
+names(df)
